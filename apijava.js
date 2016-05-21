@@ -5,5 +5,6 @@ $(document).ready(function() {
        $('.id').append(data.id);
        $('.email').append(data.email);
        $('.user').append(data.login);
+       $('.organization').append(data.organizations_url);
     });
 });
